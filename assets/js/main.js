@@ -1,5 +1,22 @@
-(function () {
+(function ($) {
   "use strict";
+  $('#cta-card').hide()
+  $('#telephone').inputmask()
+  $('#email').inputmask()
+  $(document).on('click','.open-cta-card',function (){
+    // $('#cta-card').removeClass('d-none')
+    $('#cta-card').fadeIn()
+  })
+  $(document).mouseup(function(e)
+  {
+    var container = $("#cta-card");
+
+    // if the target of the click isn't the container nor a descendant of the container
+    if (!container.is(e.target) && container.has(e.target).length === 0)
+    {
+      container.fadeOut();
+    }
+  });
 
   // ==== Preloader
   window.onload = function () {
@@ -337,4 +354,4 @@
       },
       retina_detect: !0,
     });
-})();
+})(jQuery);

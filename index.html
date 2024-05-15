@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="assets/css/lineIcons.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/jquery/jquery.min.js"></script>
   </head>
 
   <body>
@@ -156,7 +157,7 @@
                 </h2>
                 <a
                   href="javascript:void(0)"
-                  class="main-btn wow fadeInUp"
+                  class="main-btn wow fadeInUp open-cta-card"
                   data-wow-duration="1.3s"
                   data-wow-delay="1.1s"
                 >
@@ -174,7 +175,9 @@
                 data-wow-duration="1.3s"
                 data-wow-delay="1.4s"
               >
-                <img src="assets/images/header/header-hero.png" alt="hero" />
+                <div class="img-container position-relative me-auto ms-auto">
+                  <img src="assets/images/header/header-hero.png" alt="hero" />
+                </div>
               </div>
               <!-- header hero image -->
             </div>
@@ -185,6 +188,30 @@
         <div id="particles-1" class="particles"></div>
       </div>
       <!-- header hero -->
+      <div class="card" id="cta-card">
+        <div class="card-header bg-white py-3">
+          <h5 class="card-title text-primary text-center m-0 " >DEMANDER UNE DÉMO MAINTENANT</h5>
+        </div>
+        <div class="card-body">
+          <form action="">
+            <div class="form-group mt-3 pb-2">
+              <label for="entreprise" class="form-label">Entreprise</label>
+              <input type="text" id="entreprise" class="form-control" placeholder="Entrez le nom de votre entreprise">
+            </div>
+            <div class="form-group mt-3 pb-2">
+              <label for="telephone" class="form-label">Téléphone</label>
+              <input type="tel" id="telephone" class="form-control"  im-insert="true"  data-inputmask="'mask': '99 99 99 99 99'" placeholder="06 01 02 03 04" minlength="10" maxlength="14">
+            </div>
+            <div class="form-group mt-3 pb-2">
+              <label for="email" class="form-label">Email</label>
+              <input type="text" id="email" class="form-control"  im-insert="true"  data-inputmask="'alias': 'email'"  placeholder="example@email.ma">
+            </div>
+            <div class="mt-5 text-center mb-4">
+              <button class="btn py-2 px-5 main-btn lh-base rounded-pill">Soumettre</button>
+            </div>
+          </form>
+        </div>
+      </div>
     </header>
     <!--====== HEADER PART ENDS ======-->
 
@@ -669,7 +696,7 @@
             <div class="col-lg-6">
               <div class="subscribe-form mt-50">
                 <form action="#">
-                  <input type="text" placeholder="Enter eamil" />
+                  <input type="text" placeholder="Enter email" />
                   <button class="main-btn">Subscribe</button>
                 </form>
               </div>
@@ -817,6 +844,7 @@
     <script src="assets/js/glightbox.min.js"></script>
     <script src="assets/js/count-up.min.js"></script>
     <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/inputmask/jquery.inputmask.bundle.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
