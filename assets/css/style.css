@@ -2242,3 +2242,7 @@ opacity: 0;
 .nav-item .dropdown-menu{
   border: none;
 }
+
+.hide-scrollbar::-webkit-scrollbar{
+  display: none;
+}
