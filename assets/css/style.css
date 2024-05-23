@@ -465,7 +465,9 @@ p {
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
-
+.navbar-area.static {
+  background-color: var(--bs-primary);
+}
 .sticky {
   position: fixed;
   z-index: 99;
@@ -2245,4 +2247,24 @@ opacity: 0;
 
 .hide-scrollbar::-webkit-scrollbar{
   display: none;
+}
+
+.roll-up {
+  transition: all linear .3s;
+  overflow: hidden;
+  max-height: 100px;
+}
+
+.closed {
+  max-height: 0px !important;
+}
+.icon {
+  transition:  all ease-in-out 300ms;
+}
+.w-fit {
+  width: fit-content !important;
+  min-width: 200px;
+}
+.icon.open{
+  transform: rotate(-90deg);
 }
