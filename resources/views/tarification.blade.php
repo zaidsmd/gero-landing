@@ -11,19 +11,19 @@
 
     <!--====== Favicon Icon ======-->
     <link
-            rel="shortcut icon"
-            href="assets/images/favicon.png"
-            type="image/png"
+        rel="shortcut icon"
+        href="{{ asset('assets/images/favicon.png') }}"
+        type="image/png"
     />
 
     <!--====== CSS Files LinkUp ======-->
-    <link rel="stylesheet" href="assets/css/animate.css"/>
-    <link rel="stylesheet" href="assets/css/glightbox.min.css"/>
-    <link rel="stylesheet" href="assets/css/lineIcons.css"/>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="assets/css/style.css"/>
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-    <script src="assets/js/jquery/jquery.min.js"></script>
+    <link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('assets/css/glightbox.min.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('assets/css/lineIcons.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('assets/css/fontawesome.min.css') }}">
+    <script src="{{ asset('assets/js/jquery/jquery.min.js') }}"></script>
 </head>
 
 <body>
@@ -61,17 +61,17 @@
             <div class="row">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg">
-                        <a class="navbar-brand" href="index.html">
-                            <img src="assets/images/logo/logo-light.png" alt="Logo"/>
+                        <a class="navbar-brand" href="{{ url('/') }}">
+                            <img src="{{ asset('assets/images/logo/logo-light.png') }}" alt="Logo"/>
                         </a>
                         <button
-                                class="navbar-toggler"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent"
-                                aria-controls="navbarSupportedContent"
-                                aria-expanded="false"
-                                aria-label="Toggle navigation"
+                            class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
                         >
                             <span class="toggler-icon"> </span>
                             <span class="toggler-icon"> </span>
@@ -79,12 +79,12 @@
                         </button>
 
                         <div
-                                class="collapse navbar-collapse sub-menu-bar"
-                                id="navbarSupportedContent"
+                            class="collapse navbar-collapse sub-menu-bar"
+                            id="navbarSupportedContent"
                         >
                             <ul id="nav" class="navbar-nav ms-auto">
                                 <li class="nav-item">
-                                    <a class="" href="index.html">Accueil</a>
+                                    <a class="" href="{{ url('/') }}">Accueil</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#modules" role="button"
@@ -124,18 +124,18 @@
     <!-- navbar area -->
 
     <div
-            id="home"
-            class="header-hero bg_cover"
-            style="background-image: url(assets/images/header/banner-bg.svg)"
+        id="home"
+        class="header-hero bg_cover"
+        style="background-image: url({{ asset('assets/images/header/banner-bg.svg') }})"
     >
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="header-hero-content text-center">
                         <h3
-                                class="header-sub-title wow fadeInUp"
-                                data-wow-duration="1.3s"
-                                data-wow-delay="0.2s"
+                            class="header-sub-title wow fadeInUp"
+                            data-wow-duration="1.3s"
+                            data-wow-delay="0.2s"
                         >
                             Tarification
                         </h3>
@@ -147,9 +147,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div
-                            class="header-hero-image text-center wow fadeIn"
-                            data-wow-duration="1.3s"
-                            data-wow-delay="1.4s"
+                        class="header-hero-image text-center wow fadeIn"
+                        data-wow-duration="1.3s"
+                        data-wow-delay="1.4s"
                     >
                         <div class="row">
                             <div class="col-xl-3 col-md-6">
@@ -246,59 +246,59 @@
             <div class="section-title text-center pb-40">
                 <div class="line m-auto"></div>
                 <h3 class="title">
-                   Besoin de plus ?
+                    Besoin de plus ?
                 </h3>
             </div>
             <!-- section title -->
         </div>
     </div>
     <!-- row -->
-   <div class="row">
-       <div class="col-md-6 mt-2">
-           <div class="single-services">
-               <div class="d-flex justify-content-between align-items-center">
-                   <h5>Besoin de plus d'utilisateurs ?</h5>
-                   <button class="rounded-circle btn btn-success roll-up-btn" style="width: 42px; height: 42px" > <span class="icon"><i class="fa fa-chevron-left" ></i></span> </button>
-               </div>
-               <div class=" roll-up closed">
-                   <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error numquam tenetur veniam? Asperiores aut dignissimos dolore eligendi error ex itaque placeat quidem temporibus veniam? Blanditiis impedit ipsam maxime provident unde!</p>
-               </div>
-           </div>
-       </div>
-       <div class="col-md-6 mt-2">
-           <div class="single-services">
-               <div class="d-flex justify-content-between align-items-center">
-                   <h5>Avons-nous une formation ?</h5>
-                   <button class="rounded-circle btn btn-success roll-up-btn" style="width: 42px; height: 42px" > <span class="icon"><i class="fa fa-chevron-left" ></i></span>  </button>
-               </div>
-               <div class="roll-up closed">
-                   <p class="pt-3" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error numquam tenetur veniam? Asperiores aut dignissimos dolore eligendi error ex itaque placeat quidem temporibus veniam? Blanditiis impedit ipsam maxime provident unde!</p>
-               </div>
-           </div>
-       </div>
-       <div class="col-md-6 mt-2">
-           <div class="single-services">
-               <div class="d-flex justify-content-between align-items-center">
-                   <h5>Avons-nous une formation ?</h5>
-                   <button class="rounded-circle btn btn-success roll-up-btn" style="width: 42px; height: 42px" > <span class="icon"><i class="fa fa-chevron-left" ></i></span>  </button>
-               </div>
-               <div class="roll-up closed">
-                   <p class="pt-3" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error numquam tenetur veniam? Asperiores aut dignissimos dolore eligendi error ex itaque placeat quidem temporibus veniam? Blanditiis impedit ipsam maxime provident unde!</p>
-               </div>
-           </div>
-       </div>
-       <div class="col-md-6 mt-2">
-           <div class="single-services">
-               <div class="d-flex justify-content-between align-items-center">
-                   <h5>Avons-nous une formation ?</h5>
-                   <button class="rounded-circle btn btn-success roll-up-btn" style="width: 42px; height: 42px" > <span class="icon"><i class="fa fa-chevron-left" ></i></span>  </button>
-               </div>
-               <div class="roll-up closed">
-                   <p class="pt-3" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error numquam tenetur veniam? Asperiores aut dignissimos dolore eligendi error ex itaque placeat quidem temporibus veniam? Blanditiis impedit ipsam maxime provident unde!</p>
-               </div>
-           </div>
-       </div>
-   </div>
+    <div class="row">
+        <div class="col-md-6 mt-2">
+            <div class="single-services">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5>Besoin de plus d'utilisateurs ?</h5>
+                    <button class="rounded-circle btn btn-success roll-up-btn" style="width: 42px; height: 42px" > <span class="icon"><i class="fa fa-chevron-left" ></i></span> </button>
+                </div>
+                <div class=" roll-up closed">
+                    <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error numquam tenetur veniam? Asperiores aut dignissimos dolore eligendi error ex itaque placeat quidem temporibus veniam? Blanditiis impedit ipsam maxime provident unde!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mt-2">
+            <div class="single-services">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5>Avons-nous une formation ?</h5>
+                    <button class="rounded-circle btn btn-success roll-up-btn" style="width: 42px; height: 42px" > <span class="icon"><i class="fa fa-chevron-left" ></i></span>  </button>
+                </div>
+                <div class="roll-up closed">
+                    <p class="pt-3" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error numquam tenetur veniam? Asperiores aut dignissimos dolore eligendi error ex itaque placeat quidem temporibus veniam? Blanditiis impedit ipsam maxime provident unde!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mt-2">
+            <div class="single-services">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5>Avons-nous une formation ?</h5>
+                    <button class="rounded-circle btn btn-success roll-up-btn" style="width: 42px; height: 42px" > <span class="icon"><i class="fa fa-chevron-left" ></i></span>  </button>
+                </div>
+                <div class="roll-up closed">
+                    <p class="pt-3" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error numquam tenetur veniam? Asperiores aut dignissimos dolore eligendi error ex itaque placeat quidem temporibus veniam? Blanditiis impedit ipsam maxime provident unde!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mt-2">
+            <div class="single-services">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5>Avons-nous une formation ?</h5>
+                    <button class="rounded-circle btn btn-success roll-up-btn" style="width: 42px; height: 42px" > <span class="icon"><i class="fa fa-chevron-left" ></i></span>  </button>
+                </div>
+                <div class="roll-up closed">
+                    <p class="pt-3" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error numquam tenetur veniam? Asperiores aut dignissimos dolore eligendi error ex itaque placeat quidem temporibus veniam? Blanditiis impedit ipsam maxime provident unde!</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- row -->
 </div>
 
@@ -313,12 +313,12 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-8">
                     <div
-                            class="footer-about mt-50 wow fadeIn"
-                            data-wow-duration="1s"
-                            data-wow-delay="0.2s"
+                        class="footer-about mt-50 wow fadeIn"
+                        data-wow-duration="1s"
+                        data-wow-delay="0.2s"
                     >
                         <a class="logo" href="javascript:void(0)">
-                            <img src="assets/images/logo/logo-light.png" alt="logo"/>
+                            <img src="{{ asset('assets/images/logo/logo-light.png') }}" alt="logo"/>
                         </a>
                         <p class="text">
                             Lorem ipsum dolor sit amet consetetur sadipscing elitr,
@@ -353,9 +353,9 @@
                 <div class="col-lg-5 col-md-7 col-sm-12">
                     <div class="footer-link d-flex mt-50 justify-content-sm-between">
                         <div
-                                class="link-wrapper wow fadeIn"
-                                data-wow-duration="1s"
-                                data-wow-delay="0.4s"
+                            class="link-wrapper wow fadeIn"
+                            data-wow-duration="1s"
+                            data-wow-delay="0.4s"
                         >
                             <div class="footer-title">
                                 <h4 class="title">Quick Link</h4>
@@ -370,9 +370,9 @@
                         </div>
                         <!-- footer wrapper -->
                         <div
-                                class="link-wrapper wow fadeIn"
-                                data-wow-duration="1s"
-                                data-wow-delay="0.6s"
+                            class="link-wrapper wow fadeIn"
+                            data-wow-duration="1s"
+                            data-wow-delay="0.6s"
                         >
                             <div class="footer-title">
                                 <h4 class="title">Resources</h4>
@@ -391,9 +391,9 @@
                 </div>
                 <div class="col-xl-3 col-md-5 col-sm-12">
                     <div
-                            class="footer-contact mt-50 wow fadeIn"
-                            data-wow-duration="1s"
-                            data-wow-delay="0.8s"
+                        class="footer-contact mt-50 wow fadeIn"
+                        data-wow-duration="1s"
+                        data-wow-delay="0.8s"
                     >
                         <div class="footer-title">
                             <h4 class="title">Contact Us</h4>
@@ -443,15 +443,15 @@
 <!--====== BACK TOP TOP PART ENDS ======-->
 
 <!--====== Javascript Files ======-->
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/fontawesome.js"></script>
+<script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('assets/js/fontawesome.js') }}"></script>
 
-<script src="assets/js/wow.min.js"></script>
-<script src="assets/js/glightbox.min.js"></script>
-<script src="assets/js/count-up.min.js"></script>
-<script src="assets/js/particles.min.js"></script>
-<script src="assets/js/inputmask/jquery.inputmask.bundle.js"></script>
-<script src="assets/js/main.js"></script>
+<script src="{{ asset('assets/js/wow.min.js') }}"></script>
+<script src="{{ asset('assets/js/glightbox.min.js') }}"></script>
+<script src="{{ asset('assets/js/count-up.min.js') }}"></script>
+<script src="{{ asset('assets/js/particles.min.js') }}"></script>
+<script src="{{ asset('assets/js/inputmask/jquery.inputmask.bundle.js') }}"></script>
+<script src="{{ asset('assets/js/main.js') }}"></script>
 <script>
     $('.roll-up-btn').click(function () {
         $(this).closest('.single-services').find('.roll-up').toggleClass('closed')
