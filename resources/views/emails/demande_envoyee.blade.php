@@ -74,7 +74,7 @@
     <div class="email-body">
         <h1>Bonjour <strong>{{ $entreprise }}</strong></h1>
         <h2>Merci d'avoir choisi Gero!</h2>
-        <p>Un administrateur vous contactera prochainement pour finaliser votre demande de démo!</p>
+        <p>Un de nos commerciaux vous contactera prochainement pour finaliser votre demande de démo!</p>
     </div>
     <div class="email-footer">
         <p>Si vous n'avez pas fait cette demande, veuillez ignorer cet email.</p>
