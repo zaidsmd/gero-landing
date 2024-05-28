@@ -758,7 +758,7 @@
 <!--====== FOOTER PART START ======-->
 <footer id="footer" class="footer-area pt-120">
     <div class="container">
-        <div style="height: 240px"></div>
+        <div style="height: 280px"></div>
         <!-- subscribe area -->
         <div class="footer-widget pb-100">
             <div class="row">
@@ -790,7 +790,48 @@
                     </div>
                     <!-- footer about -->
                 </div>
-
+                <div class="col-lg-4 col-md-7 col-sm-12">
+                    <div class="footer-link d-flex mt-50 justify-content-sm-between">
+                        <div
+                            class="link-wrapper wow fadeIn"
+                            data-wow-duration="1s"
+                            data-wow-delay="0.4s"
+                        >
+                            <div class="footer-title">
+                                <h4 class="title">Lien rapides</h4>
+                            </div>
+                            <ul class="link">
+                                <li><a href="javascript:void(0)">Confidentialité</a></li>
+                                <li><a href="javascript:void(0)">Conditions d'utilisations</a></li>
+                                <li><a href="{{route('modules')}}">Modules</a></li>
+                                <li><a href="javascript:void(0)">Devenir partenaire</a></li>
+                                <li><a href="javascript:void(0)">Déclarer une anomalie</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- footer link -->
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-12">
+                    <div
+                        class="footer-contact mt-50 wow fadeIn"
+                        data-wow-duration="1s"
+                        data-wow-delay="0.8s"
+                    >
+                        <div class="footer-title">
+                            <h4 class="title">Contactez-nous</h4>
+                        </div>
+                        <ul class="contact">
+                            <li>06 38 89 81 88</li>
+                            <li>contact@gero.ma</li>
+                            <li><a class="text-white" href="{{route('index')}}">www.gero.ma</a></li>
+                            <li>
+                                Av.abderrahmane el youssfi Castilla <br/>
+                                Business Center Etage 6 N30, Tanger 90060
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- footer contact -->
+                </div>
             </div>
             <!-- row -->
         </div>
