@@ -34,4 +34,10 @@ class WebController extends Controller
         return redirect()->route('index')->with('success', 'Demande envoyé avec succès');
 
     }
+    function modules (){
+        return view('modules');
+    }
+    function apropos (){
+        return view('apropos');
+    }
 }

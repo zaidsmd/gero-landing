@@ -16,5 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::controller(\App\Http\Controllers\WebController::class)->group(function () {
     Route::get('/','index')->name('index');
     Route::get('/tarifications','tarification')->name('tarification');
+    Route::get('/modules','modules')->name('modules');
+    Route::get('/apropos','apropos')->name('apropos');
     Route::post('/demo','demo_form')->name('demo_form');
 });

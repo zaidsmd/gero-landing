@@ -92,23 +92,23 @@
                                         Modules
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Catalogue</a></li>
-                                        <li><a class="dropdown-item" href="#">Contacts</a></li>
-                                        <li><a class="dropdown-item" href="#">Ventes</a></li>
-                                        <li><a class="dropdown-item" href="#">Achats</a></li>
-                                        <li><a class="dropdown-item" href="#">Trésorerie</a></li>
-                                        <li><a class="dropdown-item" href="#">Rapports</a></li>
-                                        <li><a class="dropdown-item" href="#">Autres</a></li>
+                                        <li><a class="dropdown-item" href="{{route('modules')}}#catalogue">Catalogue</a></li>
+                                        <li><a class="dropdown-item" href="{{route('modules')}}#contact">Contacts</a></li>
+                                        <li><a class="dropdown-item" href="{{route('modules')}}#vente">Ventes</a></li>
+                                        <li><a class="dropdown-item" href="{{route('modules')}}#vente">Achats</a></li>
+                                        <li><a class="dropdown-item" href="{{route('modules')}}#tresorie">Trésorerie</a></li>
+                                        <li><a class="dropdown-item" href="{{route('modules')}}#rapport">Rapports</a></li>
+                                        <li><a class="dropdown-item" href="{{route('modules')}}#import">Autres</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="page-scroll" href="">Spécial éditions</a>
+                                    <a class="" href="">Spécial éditions</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="page-scroll active" href="#">Tarification</a>
+                                    <a class=" active" href="#">Tarification</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="page-scroll" href="#facts">À propos</a>
+                                    <a class="p" href="{{route('apropos')}}">À propos</a>
                                 </li>
                             </ul>
                         </div>
@@ -276,38 +276,35 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6 mt-2">
-            <div class="single-services">
-                <div class="d-flex justify-content-between align-items-center">
-                    <h5>Avons-nous une formation ?</h5>
-                    <button class="rounded-circle btn btn-success roll-up-btn" style="width: 42px; height: 42px" > <span class="icon"><i class="fa fa-chevron-left" ></i></span>  </button>
-                </div>
-                <div class="roll-up closed">
-                    <p class="pt-3" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error numquam tenetur veniam? Asperiores aut dignissimos dolore eligendi error ex itaque placeat quidem temporibus veniam? Blanditiis impedit ipsam maxime provident unde!</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6 mt-2">
-            <div class="single-services">
-                <div class="d-flex justify-content-between align-items-center">
-                    <h5>Avons-nous une formation ?</h5>
-                    <button class="rounded-circle btn btn-success roll-up-btn" style="width: 42px; height: 42px" > <span class="icon"><i class="fa fa-chevron-left" ></i></span>  </button>
-                </div>
-                <div class="roll-up closed">
-                    <p class="pt-3" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error numquam tenetur veniam? Asperiores aut dignissimos dolore eligendi error ex itaque placeat quidem temporibus veniam? Blanditiis impedit ipsam maxime provident unde!</p>
-                </div>
-            </div>
-        </div>
+{{--        <div class="col-md-6 mt-2">--}}
+{{--            <div class="single-services">--}}
+{{--                <div class="d-flex justify-content-between align-items-center">--}}
+{{--                    <h5>Avons-nous une formation ?</h5>--}}
+{{--                    <button class="rounded-circle btn btn-success roll-up-btn" style="width: 42px; height: 42px" > <span class="icon"><i class="fa fa-chevron-left" ></i></span>  </button>--}}
+{{--                </div>--}}
+{{--                <div class="roll-up closed">--}}
+{{--                    <p class="pt-3" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error numquam tenetur veniam? Asperiores aut dignissimos dolore eligendi error ex itaque placeat quidem temporibus veniam? Blanditiis impedit ipsam maxime provident unde!</p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="col-md-6 mt-2">--}}
+{{--            <div class="single-services">--}}
+{{--                <div class="d-flex justify-content-between align-items-center">--}}
+{{--                    <h5>Avons-nous une formation ?</h5>--}}
+{{--                    <button class="rounded-circle btn btn-success roll-up-btn" style="width: 42px; height: 42px" > <span class="icon"><i class="fa fa-chevron-left" ></i></span>  </button>--}}
+{{--                </div>--}}
+{{--                <div class="roll-up closed">--}}
+{{--                    <p class="pt-3" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error numquam tenetur veniam? Asperiores aut dignissimos dolore eligendi error ex itaque placeat quidem temporibus veniam? Blanditiis impedit ipsam maxime provident unde!</p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
     </div>
     <!-- row -->
 </div>
 
 <footer id="footer" class="footer-area pt-120">
     <div class="container">
-        <div style="height: 250px"
-        >
-            <!-- row -->
-        </div>
+        <div style="height: 240px"></div>
         <!-- subscribe area -->
         <div class="footer-widget pb-100">
             <div class="row">
@@ -321,28 +318,17 @@
                             <img src="{{ asset('assets/images/logo/logo-light.png') }}" alt="logo"/>
                         </a>
                         <p class="text">
-                            Lorem ipsum dolor sit amet consetetur sadipscing elitr,
-                            sederfs diam nonumy eirmod tempor invidunt ut labore et dolore
-                            magna aliquyam.
+                            Avec GERO, nous sommes bien plus qu'une simple solution logicielle ; nous sommes vos
+                            partenaires dans la réussite.
                         </p>
                         <ul class="social">
                             <li>
-                                <a href="javascript:void(0)">
-                                    <i class="lni lni-facebook-filled"> </i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)">
-                                    <i class="lni lni-twitter-filled"> </i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)">
+                                <a href="https://www.instagram.com/gero.saas" target="_blank">
                                     <i class="lni lni-instagram-filled"> </i>
                                 </a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)">
+                                <a target="_blank" href="https://www.linkedin.com/company/gerosaas/">
                                     <i class="lni lni-linkedin-original"> </i>
                                 </a>
                             </li>
@@ -350,66 +336,7 @@
                     </div>
                     <!-- footer about -->
                 </div>
-                <div class="col-lg-5 col-md-7 col-sm-12">
-                    <div class="footer-link d-flex mt-50 justify-content-sm-between">
-                        <div
-                            class="link-wrapper wow fadeIn"
-                            data-wow-duration="1s"
-                            data-wow-delay="0.4s"
-                        >
-                            <div class="footer-title">
-                                <h4 class="title">Quick Link</h4>
-                            </div>
-                            <ul class="link">
-                                <li><a href="javascript:void(0)">Road Map</a></li>
-                                <li><a href="javascript:void(0)">Privacy Policy</a></li>
-                                <li><a href="javascript:void(0)">Refund Policy</a></li>
-                                <li><a href="javascript:void(0)">Terms of Service</a></li>
-                                <li><a href="javascript:void(0)">Pricing</a></li>
-                            </ul>
-                        </div>
-                        <!-- footer wrapper -->
-                        <div
-                            class="link-wrapper wow fadeIn"
-                            data-wow-duration="1s"
-                            data-wow-delay="0.6s"
-                        >
-                            <div class="footer-title">
-                                <h4 class="title">Resources</h4>
-                            </div>
-                            <ul class="link">
-                                <li><a href="javascript:void(0)">Home</a></li>
-                                <li><a href="javascript:void(0)">Page</a></li>
-                                <li><a href="javascript:void(0)">Portfolio</a></li>
-                                <li><a href="javascript:void(0)">Blog</a></li>
-                                <li><a href="javascript:void(0)">Contact</a></li>
-                            </ul>
-                        </div>
-                        <!-- footer wrapper -->
-                    </div>
-                    <!-- footer link -->
-                </div>
-                <div class="col-xl-3 col-md-5 col-sm-12">
-                    <div
-                        class="footer-contact mt-50 wow fadeIn"
-                        data-wow-duration="1s"
-                        data-wow-delay="0.8s"
-                    >
-                        <div class="footer-title">
-                            <h4 class="title">Contact Us</h4>
-                        </div>
-                        <ul class="contact">
-                            <li>+809272561823</li>
-                            <li>info@gmail.com</li>
-                            <li>www.yourweb.com</li>
-                            <li>
-                                123 Stree New York City , United <br/>
-                                States Of America 750.
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- footer contact -->
-                </div>
+
             </div>
             <!-- row -->
         </div>
@@ -421,7 +348,7 @@
                         <div class="copyright-content">
                             <p class="text">
                                 Designed and Developed by
-                                <a href="https://uideck.com" rel="nofollow">UIdeck</a>
+                                <a href="https://tarmiz.ma" rel="nofollow">Tarmiz</a>
                             </p>
                         </div>
                         <!-- copyright content -->

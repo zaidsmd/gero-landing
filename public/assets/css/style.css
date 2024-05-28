@@ -1,15 +1,4 @@
-/* =======
 
-	Template Name: Basic
-	Author: UIdeck
-	Author URI: https://uideck.com/
-	Support: https://uideck.com/support/
-	Version: 1.1
-
-======== */
-/*===========================
-  COMMON css 
-===========================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,700|Lato:300,400,700&display=swap");
 body {
   font-family: "Lato", sans-serif;
@@ -801,7 +790,7 @@ opacity: 0;
 }
 
 /*===========================
-  BRAND css 
+  BRAND css
 ===========================*/
 @media (max-width: 767px) {
   .brand-logo {
@@ -855,7 +844,7 @@ opacity: 0;
 }
 
 /*===========================
-  SERVICES css 
+  SERVICES css
 ===========================*/
 .single-services {
   background-color: #fff;
@@ -965,7 +954,7 @@ opacity: 0;
 }
 
 /*===========================
-	ABOUT css 
+	ABOUT css
 ===========================*/
 .about-area {
   position: relative;
@@ -1033,7 +1022,7 @@ opacity: 0;
 }
 
 /*===========================
-	VIDEO COUNTER css 
+	VIDEO COUNTER css
 ===========================*/
 .video-content {
   position: relative;
@@ -1205,7 +1194,7 @@ opacity: 0;
 }
 
 /*===========================
-  SUBSCRIBE  css 
+  SUBSCRIBE  css
 ===========================*/
 .subscribe-area {
   padding: 40px 50px 90px;
@@ -1334,7 +1323,7 @@ opacity: 0;
 }
 
 /*===========================
-	FOOTER  css 
+	FOOTER  css
 ===========================*/
 .footer-area {
   background-position: top center;
@@ -2262,8 +2251,10 @@ opacity: 0;
   transition:  all ease-in-out 300ms;
 }
 .w-fit {
-  width: fit-content !important;
-  min-width: 200px;
+  width: 14.28% !important;
+}
+.w-fit * {
+    font-size: 1.2vw;
 }
 .icon.open{
   transform: rotate(-90deg);

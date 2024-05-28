@@ -93,13 +93,13 @@
                                         Modules
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Catalogue</a></li>
-                                        <li><a class="dropdown-item" href="#">Contacts</a></li>
-                                        <li><a class="dropdown-item" href="#">Ventes</a></li>
-                                        <li><a class="dropdown-item" href="#">Achats</a></li>
-                                        <li><a class="dropdown-item" href="#">Trésorerie</a></li>
-                                        <li><a class="dropdown-item" href="#">Rapports</a></li>
-                                        <li><a class="dropdown-item" href="#">Autres</a></li>
+                                        <li><a class="dropdown-item" href="{{route('modules')}}#catalogue">Catalogue</a></li>
+                                        <li><a class="dropdown-item" href="{{route('modules')}}#contact">Contacts</a></li>
+                                        <li><a class="dropdown-item" href="{{route('modules')}}#vente">Ventes</a></li>
+                                        <li><a class="dropdown-item" href="{{route('modules')}}#vente">Achats</a></li>
+                                        <li><a class="dropdown-item" href="{{route('modules')}}#tresorie">Trésorerie</a></li>
+                                        <li><a class="dropdown-item" href="{{route('modules')}}#rapport">Rapports</a></li>
+                                        <li><a class="dropdown-item" href="{{route('modules')}}#import">Autres</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
@@ -109,7 +109,7 @@
                                     <a class="" href="{{route('tarification')}}">Tarification</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="" href="">À propos</a>
+                                    <a class="" href="{{route('apropos')}}">À propos</a>
                                 </li>
                             </ul>
                         </div>
@@ -162,12 +162,12 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div
-                        class="header-hero-image text-center wow fadeIn"
+                        class="header-hero-image text-center rounded wow fadeIn"
                         data-wow-duration="1.3s"
                         data-wow-delay="1.4s"
                     >
                         <div class="img-container position-relative me-auto ms-auto">
-                            <img src="{{ asset('assets/images/header/header-hero.png') }}" alt="hero"/>
+                            <img src="{{ asset('assets/images/header/header-hero.jpg') }}" alt="hero"/>
                         </div>
                     </div>
                     <!-- header hero image -->
@@ -277,7 +277,7 @@
         </div>
     </div>
 
-    <div class="pt-120">
+    <div class="pt-120 d-none d-md-block">
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <div class="section-title text-center pb-40 ">
@@ -291,9 +291,9 @@
             </div>
         </div>
         <!-- row -->
-        <div class="bg-success ">
+        <div class="bg-success  ">
             <!-- single services -->
-            <div class="row align-items-center  justify-content-center overflow-hidden py-3 gap-5">
+            <div class="d-flex align-items-center  justify-content-center overflow-hidden py-3 gap-5">
                 <div
                     class="text-center w-fit  py-3 wow fadeIn h-100"
                     data-wow-duration="1s"
@@ -536,28 +536,17 @@
                             <img src="{{ asset('assets/images/logo/logo-light.png') }}" alt="logo"/>
                         </a>
                         <p class="text">
-                            Lorem ipsum dolor sit amet consetetur sadipscing elitr,
-                            sederfs diam nonumy eirmod tempor invidunt ut labore et dolore
-                            magna aliquyam.
+                            Avec GERO, nous sommes bien plus qu'une simple solution logicielle ; nous sommes vos
+                            partenaires dans la réussite.
                         </p>
                         <ul class="social">
                             <li>
-                                <a href="javascript:void(0)">
-                                    <i class="lni lni-facebook-filled"> </i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)">
-                                    <i class="lni lni-twitter-filled"> </i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)">
+                                <a href="https://www.instagram.com/gero.saas" target="_blank">
                                     <i class="lni lni-instagram-filled"> </i>
                                 </a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)">
+                                <a target="_blank" href="https://www.linkedin.com/company/gerosaas/">
                                     <i class="lni lni-linkedin-original"> </i>
                                 </a>
                             </li>
@@ -565,66 +554,7 @@
                     </div>
                     <!-- footer about -->
                 </div>
-                <div class="col-lg-5 col-md-7 col-sm-12">
-                    <div class="footer-link d-flex mt-50 justify-content-sm-between">
-                        <div
-                            class="link-wrapper wow fadeIn"
-                            data-wow-duration="1s"
-                            data-wow-delay="0.4s"
-                        >
-                            <div class="footer-title">
-                                <h4 class="title">Quick Link</h4>
-                            </div>
-                            <ul class="link">
-                                <li><a href="javascript:void(0)">Road Map</a></li>
-                                <li><a href="javascript:void(0)">Privacy Policy</a></li>
-                                <li><a href="javascript:void(0)">Refund Policy</a></li>
-                                <li><a href="javascript:void(0)">Terms of Service</a></li>
-                                <li><a href="javascript:void(0)">Pricing</a></li>
-                            </ul>
-                        </div>
-                        <!-- footer wrapper -->
-                        <div
-                            class="link-wrapper wow fadeIn"
-                            data-wow-duration="1s"
-                            data-wow-delay="0.6s"
-                        >
-                            <div class="footer-title">
-                                <h4 class="title">Resources</h4>
-                            </div>
-                            <ul class="link">
-                                <li><a href="javascript:void(0)">Home</a></li>
-                                <li><a href="javascript:void(0)">Page</a></li>
-                                <li><a href="javascript:void(0)">Portfolio</a></li>
-                                <li><a href="javascript:void(0)">Blog</a></li>
-                                <li><a href="javascript:void(0)">Contact</a></li>
-                            </ul>
-                        </div>
-                        <!-- footer wrapper -->
-                    </div>
-                    <!-- footer link -->
-                </div>
-                <div class="col-lg-3 col-md-5 col-sm-12">
-                    <div
-                        class="footer-contact mt-50 wow fadeIn"
-                        data-wow-duration="1s"
-                        data-wow-delay="0.8s"
-                    >
-                        <div class="footer-title">
-                            <h4 class="title">Contact Us</h4>
-                        </div>
-                        <ul class="contact">
-                            <li>+809272561823</li>
-                            <li>info@gmail.com</li>
-                            <li>www.yourweb.com</li>
-                            <li>
-                                123 Stree New York City , United <br/>
-                                States Of America 750.
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- footer contact -->
-                </div>
+
             </div>
             <!-- row -->
         </div>
