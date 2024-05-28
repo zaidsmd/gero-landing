@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6b66c39-0ab3-44d5-9927-645a6355562d" name="Changes" comment="">
+    <list default="true" id="a6b66c39-0ab3-44d5-9927-645a6355562d" name="Changes" comment="footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/modules.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/modules.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tarification.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tarification.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/apropos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/apropos.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,8 +174,17 @@
       <option name="presentableId" value="Default" />
       <updated>1716872877220</updated>
       <workItem from="1716872881531" duration="7873000" />
-      <workItem from="1716888832243" duration="680000" />
+      <workItem from="1716888832243" duration="699000" />
+      <workItem from="1716893218447" duration="383000" />
     </task>
+    <task id="LOCAL-00001" summary="footer">
+      <created>1716889528480</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716889528480</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,14 +201,13 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/modules.blade.php</url>
-          <line>836</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/resources/views/index.blade.php</url>
           <line>192</line>

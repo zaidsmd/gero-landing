@@ -92,13 +92,13 @@
                                         Modules
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#catalogue">Catalogue</a></li>
-                                        <li><a class="dropdown-item" href="#contact">Contacts</a></li>
-                                        <li><a class="dropdown-item" href="#vente">Ventes</a></li>
-                                        <li><a class="dropdown-item" href="#vente">Achats</a></li>
-                                        <li><a class="dropdown-item" href="#tresorie">Trésorerie</a></li>
-                                        <li><a class="dropdown-item" href="#rapport">Rapports</a></li>
-                                        <li><a class="dropdown-item" href="#import">Autres</a></li>
+                                        <li><a class="dropdown-item" href="{{route('modules')}}#catalogue">Catalogue</a></li>
+                                        <li><a class="dropdown-item" href="{{route('modules')}}#contact">Contacts</a></li>
+                                        <li><a class="dropdown-item" href="{{route('modules')}}#vente">Ventes</a></li>
+                                        <li><a class="dropdown-item" href="{{route('modules')}}#vente">Achats</a></li>
+                                        <li><a class="dropdown-item" href="{{route('modules')}}#tresorie">Trésorerie</a></li>
+                                        <li><a class="dropdown-item" href="{{route('modules')}}#rapport">Rapports</a></li>
+                                        <li><a class="dropdown-item" href="{{route('modules')}}#import">Autres</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
@@ -245,9 +245,9 @@
                     </div>
                 </div>
                 <div class="col-12 mt-4 pt-20">
-                    <p class="text-center"><b>GERO</b> est commercialisé au Maroc par <b>TARMIZ SARL</b>, une entreprise spécialisée dans la digitalisation
-                        des métiers et des organismes, ainsi que dans la formation, le conseil et le développement de solutions
-                        informatiques sur mesure pour les entreprises marocaines.
+                    <p class="text-center"><b>GERO</b> est un produit développé par <b>TARMIZ SARL
+                        </b>, une entreprise marocaine spécialisée dans la digitalisation des métiers et des organismes, ainsi que dans la formation, le conseil et le développement de solutions informatiques sur mesure pour les entreprises marocaines.
+                        <br>
                         Nous sommes impatients de vous connaître et de discuter de la façon dont <b>GERO</b> peut soutenir vos
                         objectifs commerciaux. Contactez-nous dès aujourd'hui pour une démo personnalisée gratuite et
                         découvrez comment notre solution peut transformer votre entreprise.</p>
