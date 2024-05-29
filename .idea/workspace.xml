@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6b66c39-0ab3-44d5-9927-645a6355562d" name="Changes" comment="footer">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/apropos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/apropos.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="a6b66c39-0ab3-44d5-9927-645a6355562d" name="Changes" comment="modofication d'image about" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,7 +172,8 @@
       <updated>1716872877220</updated>
       <workItem from="1716872881531" duration="7873000" />
       <workItem from="1716888832243" duration="699000" />
-      <workItem from="1716893218447" duration="383000" />
+      <workItem from="1716893218447" duration="417000" />
+      <workItem from="1716983534897" duration="214000" />
     </task>
     <task id="LOCAL-00001" summary="footer">
       <created>1716889528480</created>
@@ -184,7 +182,21 @@
       <option name="project" value="LOCAL" />
       <updated>1716889528480</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="paraghraph dans apropos">
+      <created>1716893633567</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716893633567</updated>
+    </task>
+    <task id="LOCAL-00003" summary="modofication d'image about">
+      <created>1716983739701</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716983739701</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +215,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer" />
+    <MESSAGE value="paraghraph dans apropos" />
+    <MESSAGE value="modofication d'image about" />
+    <option name="LAST_COMMIT_MESSAGE" value="modofication d'image about" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
