@@ -261,7 +261,7 @@
                     <button class="rounded-circle btn btn-success roll-up-btn" style="width: 42px; height: 42px" > <span class="icon"><i class="fa fa-chevron-left" ></i></span> </button>
                 </div>
                 <div class=" roll-up closed">
-                    <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error numquam tenetur veniam? Asperiores aut dignissimos dolore eligendi error ex itaque placeat quidem temporibus veniam? Blanditiis impedit ipsam maxime provident unde!</p>
+                    <p class="pt-3">Ajoutez autant d’utilisateurs que vous le souhaitez pour 100 MAD HT par mois et par utilisateur.</p>
                 </div>
             </div>
         </div>
@@ -272,7 +272,7 @@
                     <button class="rounded-circle btn btn-success roll-up-btn" style="width: 42px; height: 42px" > <span class="icon"><i class="fa fa-chevron-left" ></i></span>  </button>
                 </div>
                 <div class="roll-up closed">
-                    <p class="pt-3" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error numquam tenetur veniam? Asperiores aut dignissimos dolore eligendi error ex itaque placeat quidem temporibus veniam? Blanditiis impedit ipsam maxime provident unde!</p>
+                    <p class="pt-3" >Oui, nous offrons des formations pour vous aider à exploiter au maximum toutes les fonctionnalités de notre logiciel. De plus, notre équipe de support est toujours disponible pour répondre à vos questions et vous accompagner dans l'utilisation quotidienne de Gero</p>
                 </div>
             </div>
         </div>
